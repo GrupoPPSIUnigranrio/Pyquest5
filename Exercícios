@@ -1,6 +1,6 @@
-*1. Faça um programa utilizando vetores que leia o nome e a
+1. Faça um programa utilizando vetores que leia o nome e a
 altura de 50 pessoas e ao final escreva o nome e a altura
-das pessoas com mais de 1,70 metros.*
+das pessoas com mais de 1,70 metros.
 
 nome = []
 altura = []
