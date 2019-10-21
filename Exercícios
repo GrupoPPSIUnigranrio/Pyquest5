@@ -4,7 +4,7 @@ das pessoas com mais de 1,70 metros.
 
 nome = []
 altura = []
-base = 4
+base = 50
 
 for i in range(base):
     nome.append(input('Digite o nome: '))
