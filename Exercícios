@@ -15,7 +15,7 @@ print('Pessoas com mais de 1,70 metros:')
 
 for i in range(base):
     if altura[i] > 1.70:
-        print(nome[i])
+        print(f'Nome: {nome[i]:10} Altura: {altura[i]:.2f} m')
 print('-'*32)
 
 2. Elabore um programa que leia a matrícula e o salário bruto
