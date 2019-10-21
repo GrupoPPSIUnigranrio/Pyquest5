@@ -24,6 +24,23 @@ O programa deve descontar 11% do salário bruto de cada
 empregado e ao final escrever: a matrícula, o salário bruto,
 o desconto e o salário líquido de cada empregado.
 
+listmatricul = []
+listsalbrut = []
+listdescont = []
+listsalliquid = []
+x = 100
+
+for c in range(x):
+    listmatricul.append(int(input('Digite a Matrícula: ')))
+    listsalbrut.append(float(input('Digite o Salário: ')))
+    listdescont.append((listsalbrut[c] * 11) / 100)
+    listsalliquid.append(listsalbrut[c] - listdescont[c])
+
+print('    Matrícula    Salário Bruto     Desconto     Salário Líquido ')
+
+for c in range(x):
+    print(f'{listmatricul[c]:10} {listsalbrut[c]:15.2f} {listdescont[c]:15.2f} {listsalliquid[c]:15.2f}')
+
 3. Faça um programa usando vetores que armazene o código, o
 nome e o telefone de 100 pessoas. O programa deve permitir
 que o usuário faça uma consulta dos dados de uma pessoa a
