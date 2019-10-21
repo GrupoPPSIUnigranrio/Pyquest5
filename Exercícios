@@ -57,6 +57,16 @@ média da turma.
 inteiros e ao final escreva estes números na ordem crescente
 e na ordem decrescente.
 
+listnum = []
+
+for n in range(10):
+    listnum.append(int(input('Digite um numero: ')))
+
+listnum.sort()
+print(f'Os números em ordem crescente ficam {listnum}')
+listnum.reverse()
+print(f'Os números em ordem descrescente ficam {listnum}')
+
 6. Elabore um programa utilizando vetores para armazenar 10
 números e ao final escreva a quantidade de números negativos,
 positivos e nulos.
